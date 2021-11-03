@@ -52,26 +52,9 @@ const getUsersInRoom = (room) => {
   return users.filter((user) => user.room === room)
 }
 
-addUser({
-  id: 22,
-  username: 'Deukhwa',
-  room: 'An Clachan',
-})
-
-addUser({
-  id: 42,
-  username: 'Mike',
-  room: 'An Clachan',
-})
-
-addUser({
-  id: 32,
-  username: 'Andrew',
-  room: 'Center City',
-})
-
-console.log(users)
-const user = getUser(22)
-console.log(user)
-const room = getUsersInRoom('an clachan')
-console.log(room)
+module.exports = {
+  addUser,
+  removeUser,
+  getUser,
+  getUsersInRoom,
+}
