@@ -1,2 +1,2 @@
 # chat-app
-https://deukhwajeong-chat-app.herokuapp.com/
+https://chat-app-vdsg.onrender.com
